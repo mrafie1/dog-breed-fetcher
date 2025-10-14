@@ -31,7 +31,7 @@ public class Main {
             return subBreeds.size();
         }
         catch(Exception e) {
-            return -1;
+            return 0;
         }
     }
 }
