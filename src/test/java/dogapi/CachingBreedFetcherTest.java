@@ -5,7 +5,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CachingBreedFetcherTest {
-    // CHANGE TODO
+
     @Test
     void testCachingAvoidsRedundantCalls() throws BreedFetcher.BreedNotFoundException {
         BreedFetcherForLocalTesting mock = new BreedFetcherForLocalTesting();
@@ -39,7 +39,6 @@ class CachingBreedFetcherTest {
     }
 
     // tests that the count of API calls is correctly recorded
-    // CHANGE TODO
     @Test
     void testCachingAvoidsRedundantCallsCheckCallsMade() throws BreedFetcher.BreedNotFoundException {
         BreedFetcherForLocalTesting mock = new BreedFetcherForLocalTesting();
